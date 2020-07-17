@@ -13,7 +13,7 @@
 	<artifactId>TestService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TestService</name>
-	<description>TestAervice project</description>
+	<description>TestAervice project bhaskar</description>
 
 	<properties>
 		<java.version>1.8</java.version>
