@@ -17,7 +17,9 @@ public class MockTestEntity {
 	String mockAddress;
 	@Field
 	String mockPhone;
-
+	@Field
+	String mockEmail;
+	
 	public String getMockTestId() {
 		return mockTestId;
 	}
@@ -56,5 +58,13 @@ public class MockTestEntity {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	public String getMockEmail() {
+		return mockEmail;
+	}
+
+	public void setMockEmail(String mockEmail) {
+		this.mockEmail = mockEmail;
 	}
 }
