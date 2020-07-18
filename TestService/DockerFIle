@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/TestService-0.0.1-SNAPSHOT.jar.jar TestService-0.0.1-SNAPSHOT.jar.jar
-ENTRYPOINT ["java","-jar","/TestService-0.0.1-SNAPSHOT.jar.jar"]
+ADD target/TestService-0.0.1-SNAPSHOT.jar TestService-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/TestService-0.0.1-SNAPSHOT.jar"]
