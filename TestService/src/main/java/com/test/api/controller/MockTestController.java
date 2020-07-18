@@ -21,7 +21,7 @@ import com.test.api.service.MockTestService;
 
 import io.swagger.annotations.ApiOperation;
 
-@RestController
+@RestController//Bhaskar reddy change
 @Validated
 @RequestMapping("/mockController")
 public class MockTestController {
