@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.test</groupId>
-	<artifactId>TestService</artifactId>
+	<artifactId>springbootdocker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TestService</name>
 	<description>TestAervice project</description>
